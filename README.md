@@ -1,4 +1,4 @@
 # comet
 car rental system
 
-https://harshmuralia.github.io/comet/
+https://harshmuralia.github.io/comet-fs/
