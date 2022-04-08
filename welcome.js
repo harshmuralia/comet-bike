@@ -36,8 +36,8 @@ return;
 
 function hatchback() {
 
-    const car_type = "Hatchback";
-    const rent_per_day = "999";
+    const car_type = "Scooty";
+    const rent_per_day = 499;
 
     sessionStorage.setItem("CARTYPE",car_type);
     sessionStorage.setItem("RENTPERDAY",rent_per_day);
@@ -47,8 +47,8 @@ function hatchback() {
 
 function Sedan() {
 
-    const car_type = "Sedan";
-    const rent_per_day = 1399;
+    const car_type = "Bike";
+    const rent_per_day = 799;
 
     sessionStorage.setItem("CARTYPE",car_type);
     sessionStorage.setItem ("RENTPERDAY",rent_per_day);
@@ -58,8 +58,8 @@ function Sedan() {
 
 function SUV() {
 
-    const car_type = "SUV";
-    const rent_per_day = 2399;
+    const car_type = "Cruiser";
+    const rent_per_day = 1199;
 
     sessionStorage.setItem("CARTYPE",car_type);
     sessionStorage.setItem ("RENTPERDAY",rent_per_day);
