@@ -52,7 +52,7 @@ p{
 
 .navbar{
 
-  padding:0 0 4.5rem;
+  padding:3rem 0 4.5rem;
 }
 
 .navbar-brand{
@@ -115,8 +115,9 @@ p{
 #testimonials{
 
   text-align: center;
-  background-color: white;
-  color: #185ADB;
+  background-color: #185ADB;
+  color: white;
+
 }
 
 .testimonial-text{
@@ -163,13 +164,23 @@ p{
 }
 
 /* Footer SECTION */
+
 #footer {
   padding: 7% 15%;
+  text-align: center;
+  color: #185ADB;
+}
+.pricing-color{
+  color: #185ADB;
   text-align: center;
 }
 
 .social-icon {
   margin: 20px 10px;
+}
+
+.card-header{
+  text-align: center;
 }
 
 @media (max-width: 1028px) {
@@ -183,85 +194,7 @@ p{
   }
 }
 
-
-body{
-  font-family: "Montserrat";
-  font-weight: 400;
-  text-align: center;
-
-}
-
-h1,h2,h3,h4,h5,h6{
-  font-family: "Montserrat";
-}
-
-h1 {
-  font-weight:900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2{
-  font-weight: 500;
-  font-size: 3rem;
-  line-height: 1.5;
-  color: #185ADB;
-}
-
-h3{
-  font-weight: 500;
-}
-
-
-p{
-  color: #8f8f8f;
-}
-
-#navbarDropdown{
-  color: white;
-  size-adjust: auto;
-}
-
-#title {
-  background: linear-gradient(to bottom right, #04009a 0%, #185adb 58%);
-  color: white;
-}
-
-.title-text{
-  font-weight: 500;
-  color: white;
-  font-size: 2rem;
-
-}
-
-.container-fluid {
-  padding: 0 15% 0%;
-}
-
-.navbar{
-
-  padding:0 0 0;
-}
-
-.navbar-brand{
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.nav-item{
-  padding: 0 18px;
-}
-
-.nav-link{
-  font-size:1.2 rem;
-
-}
-.navicon{
-  margin-top: 4px;
-}
-
-/* pricing-section */
+/* pricing-section  */
 #pricing {
   padding: 0 15% 0;
   padding-top: 50px;
@@ -272,7 +205,7 @@ p{
 }
 
 .card{
-
+  text-align: center;
   border-color: #185adb;
 }
 
