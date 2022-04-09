@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-  <title>COMET - Car Rental </title>
+  <title>COMET - Bike Rental </title>
   <link rel="icon" href="images/comet-icon.ico">
 
   <!-- fontawesome -->
@@ -34,7 +34,7 @@
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-analytics.js";
-    
+
   </script>
 </head>
 <body>
@@ -42,12 +42,12 @@
         <div class="container-fluid">
           <!-- NAVBAR -->
           <nav class="navbar navbar-expand-lg navbar-dark">
-    
+
             <a class="navbar-brand" href="">
               <img src="images/cometnav.png" width="50" height="50" class="d-inline-block align-top navicon" alt="">
               COMET
             </a>
-    
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,11 +59,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#features">Features</a>
                 </li>
-    
+
                 <li class="nav-item">
                   <a class="nav-link" href="#footer">Contact Us</a>
                 </li>
-                
+
                 <li class="nav-item dropdown ">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
 
@@ -71,74 +71,74 @@
 
                     <a  class="dropdown-item" href="orders.html">My Orders</a>
                     <a onclick="logout()" class="dropdown-item" href="#">Log Out</a>
-                    
+
                   </div>
 
                 </li>
               </ul>
             </div>
           </nav>
-    
-    
-    
-    
-    
+
+
+
+
+
           <!-- Title -->
-    
+
           <div class="row">
             <div class="col-lg-6">
-              <h1>India's most affordable Car Rental Platform</h1>
-              <p class="title-text">with prices starting at just ₹999/- </p>
+              <h1> Quality rentals to get you moving!</h1>
+              <p class="title-text">with prices starting at just ₹499/- </p>
             </div>
             <div class="col-lg-6">
-              <img class="title-image" src="images/car-image.png" alt="car-image">
+              <img class="title-image" src="images/motorcycle.png" alt="car-image">
             </div>
-    
+
           </div>
         </div>
-    
-    
-    
+
+
+
       </section>
-    
-    
+
+
       <!-- Features -->
-    
+
       <section id="features">
         <div class="row">
-          <div class=" feature-box col-lg-3">
+          <div class=" feature-box col-lg-4">
             <i class="icon fas fa-rupee-sign fa-4x"></i>
             <h3>No Advance</h3>
             <p>Hassle Free Booking with no advance money or hidden charges.</p>
-    
+
           </div>
-    
-          <div class=" feature-box col-lg-3">
+
+          <div class=" feature-box col-lg-4">
             <i class="icon far fa-check-circle fa-4x"></i>
             <h3>Fully Insured</h3>
             <p>All vehicles are fully insured.</p>
-    
+
           </div>
-    
-          <div class=" feature-box col-lg-3">
+
+          <!-- <div class=" feature-box col-lg-3">
             <i class="icon fas fa-temperature-low fa-4x"></i>
             <h3>A/C</h3>
             <p>Air Conditioned Vehicles</p>
-    
-          </div>
-    
-          <div class=" feature-box col-lg-3">
+
+          </div> -->
+
+          <div class=" feature-box col-lg-4">
             <i class="icon fas fa-air-freshener fa-4x"></i>
             <h3>Clean</h3>
-            <p>Fully washed and clean interior-exterior.</p>
-    
+            <p>Fully washed and clean.</p>
+
           </div>
-    
+
         </div>
-    
-    
+
+
       </section>
-    
+
       <!-- Booking -->
       <!-- <script>
         if (login1=true) {
@@ -148,12 +148,12 @@
       }
       </script>  -->
       <section  id="booking">
-    
+
         <h2 class="booking-head">Hit the road now!</h2>
         <div class="row">
           <div class="input-group mb-3 col-lg-6">
             <select required class="custom-select" id="inputGroupSelect01">
-                
+
               <option disabled selected hidden>Source City</option>
               <option value="Panaji"> Panaji </option>
               <option value="Madgaon"> Madgaon </option>
@@ -162,14 +162,14 @@
               <option value="Curchorem Cacora"> Curchorem Cacora </option>
               <option value="Ponda"> Ponda </option>
               <option value="Sancoale"> Sancoale </option>
-          
+
             </select>
           </div>
-    
+
           <div class="input-group mb-3 col-lg-6">
             <select required class="custom-select" id="inputGroupSelect02" >
               <option disabled selected hidden>Drop City</option>
-              
+
               <option value="Panaji"> Panaji </option>
               <option value="Madgaon"> Madgaon </option>
               <option value="Mormugao"> Mormugao </option>
@@ -177,14 +177,14 @@
               <option value="Curchorem Cacora"> Curchorem Cacora </option>
               <option value="Ponda"> Ponda </option>
               <option value="Sancoale"> Sancoale </option>
-          
+
             </select>
           </div>
           <div class="input-group mb-3 col-lg-6">
             <input required style="width:600px" type="text" class="form-control"  id="pickupDate" placeholder="Pickup Date" >
-    
+
     <script>
-    
+
     $(function () {
               $("#pickupDate").datepicker({
                 dateFormat: 'dd-mm-yy',
@@ -193,16 +193,16 @@
               });
           });
     </script>
-            
-      
+
+
            <div class="input-group-append">
             </div>
           </div>
           <div class="input-group mb-3 col-lg-6">
             <input required style="width:600px" type="text" id="dropDate" class="form-control" placeholder="Drop-Off Date" >
-         
+
     <script>
-    
+
       $(function () {
                 $("#dropDate").datepicker({
                   dateFormat: 'dd-mm-yy',
@@ -211,20 +211,20 @@
                 });
             });
       </script>
-              
+
             <div class="input-group-append">
             </div>
           </div>
         </div>
-       
+
         <a button type="button" onclick = "handleSubmit()" id = register disabled="disabled"  href="#pricing" class="btn btn-warning booking-button">Proceed to Book</a>
-        
-        
+
+
         <script>
          $('#inputGroupSelect01, #inputGroupSelect02, #dropDate, #pickupDate').bind('change', function() {
           if(allFilled()) $('#register').removeAttr('disabled');
       });
-      
+
       function allFilled() {
           var filled = true;
           $('body input').each(function() {
@@ -236,54 +236,20 @@
     </script>
         </div>
       </section>
-    
-    
-      <!-- Testimonials -->
-    
-      <section id="testimonials">
-        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <h2 class="testimonial-text"><em>The best Car Rental Services in India.</em></h2>
-              <em>-Hindustan Times</em>
-    
-            </div>
-            <div class="carousel-item">
-              <h2 class="testimonial-text"><em>Lowest prices you can ever get on a Car Rental!</em></h2>
-              <em>-India Today</em>
-            </div>
-            <div class="carousel-item">
-              <h2 class="testimonial-text"><em>"The Car was clean and the services provided were very good."</em></h2>
-              <em>- A Happy Customer</em>
-            </div>
-            <div class="carousel-item">
-              <h2 class="testimonial-text"><em>"COMET provides the best services!"</em></h2>
-              <em>- A Happy Customer</em>
-            </div>
-    
-          </div>
-          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-    
-      </section>
-    
-    
+
+
+
+
+
   <section id="pricing">
 
-    <h2>Enjoy your holidays with our wheels.</h2>
-    <p>Simple and affordable price plans for you and your family!</p>
+    <h2 class = "pricing-color">Enjoy your holidays with our wheels.</h2>
+    <p class = "pricing-color">Simple and affordable price plans for you and your family! </p>
     <div class="row">
 
       <div class="pricing-column col-lg-4 col-md-6">
         <div class="card">
-          <img class="card-img-top" src="images/swift.jpg" alt="swift-img">
+          <img class="card-img-top" src="images/activa.jpg" alt="activa-img">
           <div class="card-header">
             <h3>Scooty</h3>
           </div>
@@ -297,7 +263,7 @@
 
       <div class="pricing-column col-lg-4 col-md-6">
         <div class="card">
-          <img class="card-img-top" src="images/verna.jpg" alt="verna-img">
+          <img class="card-img-top" src="images/pulsar.jpg" alt="pulsar-img">
           <div class="card-header">
             <h3>Bike</h3>
           </div>
@@ -311,7 +277,7 @@
 
       <div class="pricing-column col-lg-4">
         <div class="card">
-          <img class="card-img-top" src="images/creta.jpg" alt="creta-img">
+          <img class="card-img-top" src="images/avenger.jpg" alt="avenger-img">
           <div class="card-header">
             <h3>Cruiser</h3>
           </div>
@@ -325,12 +291,46 @@
 
     </div>
   </section>
-    
 
-    
-    
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text"><em>The best Bike Rental Services in Goa.</em></h2>
+          <em>-Hindustan Times</em>
+
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text"><em>Lowest prices you can ever get on a Bike Rental!</em></h2>
+          <em>-India Today</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text"><em>"The Bike was clean and the services provided were very good."</em></h2>
+          <em>- A Happy Customer</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text"><em>"COMET provides the best services!"</em></h2>
+          <em>- A Happy Customer</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+
       <!-- Footer -->
-    
+
       <footer id="footer">
 
         <h3>Any Query? Feel free to call us at </h3>
@@ -340,14 +340,8 @@
         <i class="social-icon fab fa-twitter"></i>
         <i class="social-icon fas fa-envelope"></i>
 
-        <section >
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-dark btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-        </section>
-        
-    
-        <p>© Copyright 2021 COMET</p>
-    
+        <p>© Copyright 2022 COMET</p>
+
       </footer>
 
 
